@@ -7,9 +7,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuentasGastos", "CuentasGas
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B76AE17-7992-4456-85E1-1F852B8A8711}"
 	ProjectSection(SolutionItems) = preProject
-		Controlador.cs = Controlador.cs
+		Conexion.cs = Conexion.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{8EC5AF81-E4B3-4B06-8A69-1DF969ED5383}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{7FECFED8-F51F-41D1-8E6A-DDFB737E80AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{616BC449-132F-495A-BC1B-5946EB307F4F}"
+	ProjectSection(SolutionItems) = preProject
+		CuentaCorreo.cs = CuentaCorreo.cs
 		Usuario.cs = Usuario.cs
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controler", "Controler", "{3DE1BB8A-C5FC-4AB7-A236-9B3D86D1640D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9B545D64-F221-40E3-87A1-09D45B21FEC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{076E7F31-C1AE-4224-80E8-77E91E60FC68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +39,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{616BC449-132F-495A-BC1B-5946EB307F4F} = {8EC5AF81-E4B3-4B06-8A69-1DF969ED5383}
+		{3DE1BB8A-C5FC-4AB7-A236-9B3D86D1640D} = {7FECFED8-F51F-41D1-8E6A-DDFB737E80AB}
+		{9B545D64-F221-40E3-87A1-09D45B21FEC9} = {7FECFED8-F51F-41D1-8E6A-DDFB737E80AB}
+		{076E7F31-C1AE-4224-80E8-77E91E60FC68} = {7FECFED8-F51F-41D1-8E6A-DDFB737E80AB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21832F70-D319-47DF-98F6-982075AE408F}

@@ -1,9 +1,9 @@
 ﻿using System;
 using MySql.Data.MySqlClient;
 
-public class controlador
+public class Conector
 {
-	public controlador()
+	public Conector()
 	{
 		string connetionString = "datasource=127.0.0.1;port=3306;user=root;password=;database=finanazas";
 		string query = "select * From Persona";
