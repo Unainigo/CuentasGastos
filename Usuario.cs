@@ -17,10 +17,4 @@ public class Usuario{
 		this.Telefono = telefono;
 		this.cuentas = new	List<cuentaAhorro>();
 	}
-	private void añadirCuenta(cuentaAhorro cuenta){
-		cuentas.add(cuenta);
-    }
-	private void cambiarContraseña(string nuevaContraseña){
-		contraseña = nuevaContraseña;
-    } 
 }

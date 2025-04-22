@@ -16,7 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{7FECFED8-F51
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{616BC449-132F-495A-BC1B-5946EB307F4F}"
 	ProjectSection(SolutionItems) = preProject
-		CuentaCorreo.cs = CuentaCorreo.cs
+		CuentaAhorro.cs = CuentaAhorro.cs
 		Usuario.cs = Usuario.cs
 	EndProjectSection
 EndProject

@@ -3,10 +3,13 @@ using MySql.Data.MySqlClient;
 
 public class Conector
 {
-	public Conector()
+	
+	public Conector : Usuario()
 	{
+		List<Usuario> usuario;
 		string connetionString = "datasource=127.0.0.1;port=3306;user=root;password=;database=finanazas";
 		string query = "select * From Persona";
+		int Contador = 0;
 		MySqlConnection databaseConnection = new MySqlConnection(connetionString);
 		MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
 		MySqlDataReader reader;
@@ -19,7 +22,8 @@ public class Conector
             {
                 while (reader.Read())
                 {
-					
+					usuario.add(reader.GetRow(Contador));
+					Contador++;
 				}
 			}
             else
